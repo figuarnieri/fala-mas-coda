@@ -1,3 +1,11 @@
+import Link from "next/link";
+
 export default () => {
-  return 'Filipe'
-}
+  return (
+    <>
+      <Link href="/login">LOGIN</Link>
+      <br />
+      Filipe'
+    </>
+  );
+};
